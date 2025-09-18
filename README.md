@@ -1,2 +1,12 @@
 # compute_layers
 Repo meant to experiment and research how different kinds of AIs and algorithms lay down in the compute layers
+
+# Introduction
+The "bitter lesson" from Rich Sutton has invaded every corner of DaertML (and I gess every corner in the minds of anyone following the AI advancements during the last 13 years if we consider 2012 and the release of AlexNet as the origin of modern AI); somehow, certain recent tests in the lab have sparked the "what if we are doing everything wrong" opinion...
+
+Before discussing the ideas in this repo, let's cover some terminology, and what really sparked the writing of this README.md:
+- Im a big fan of the "abstraction layers" that are given if we consider writing any piece of code, using only 3 possible programming languages: assembly, C and Python; from left to right represent the lower level to higher level abstraction layers of programming. One can (relatively) easily inject assembly code inside C, and can convert a certain piece of code written in C as a working "module" in Python. In a similar manner, one can write C code, and call it from Python using the different mechanisms that we will not discuss here; thus, one can write higher level code, or lower level code in different sections, and is allowed to zoom in and zoom out the complexity of code by choosing a certain language for a certain use case. In this manner, optimizations can be left for later introduction, or can be leveraged at the beginning.
+
+- This is a great abstraction that can be mapped to computing; in this manner, one can consider everything that is run in a computer from the OS, to the peripheral drivers, to the web browser of ChatGPT, a certain piece of code with certain data that behaves in a certain manner. Because of that, and thanks to the rise of what we will call from now on "AGIs" (making an abuse of notation);
+
+It all started when trying to make AGIs play games
