@@ -19,6 +19,7 @@ The bitter lesson may be failing us a bit, and the first results of it were foun
 
 The other sign of need for specialized models appeared from the fact that using coding models for coding is better than using instruct models for coding, and the same happens for models that are finetuned on other fields. Even though one get a performance boost from mixing similar fields like coding and math, we should use our instinct to choose what things to put together in the training run, and which kinds of models were to be made.
 
+# The compute layers
 So, without further explaining the reasons that brought DaertML to this conclusion, here are the abstraction compute layers that we can consider:
 algorithms -> search algorithms -> symbolic models -> subsymbolic models -> AGIs.
 
