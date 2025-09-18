@@ -44,4 +44,5 @@ One may have forgotten how quick methods to do OCR (in terms of needed compute r
 
 If you need to run at huge speed a model to do computer vision in a microcontroller, you may be better to implement a classic Computer Vision algorithm that can solve the thing at hand; otherwise you may need to call a bigger computer to solve the problem and give you the answer back: hello complexity!
 
+# Conclusion
 So, yeah the bitter lesson is bitter, but i'd say that it is more kind of a bittersweet feeling, once you realize we just have added layers and layers of compute needs on top of each other to support more general approaches to solve problems.
